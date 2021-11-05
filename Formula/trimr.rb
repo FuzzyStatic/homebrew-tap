@@ -6,7 +6,6 @@ class Trimr < Formula
   desc "Trim those unused branches with ease."
   homepage ""
   version "0.1.6"
-  bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/FuzzyStatic/trimr/releases/download/v0.1.6/trimr_0.1.6_Darwin_x86_64.tar.gz"
